@@ -22,6 +22,13 @@ public class MiniCalculadoraEjemplo {
         return Math.sqrt(numero);
     }
 
+    /**
+     * Devuelve el valor absoluto de un número.
+     * * @deprecated Este metodo es antiguo, use versiones más recientes
+     * @param numero El número a transformar
+     * @return El número en positivo
+     * @since 1.0
+     */
 
     public double valorAbsoluto(double numero) {
         return Math.abs(numero);
